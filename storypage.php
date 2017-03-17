@@ -16,6 +16,10 @@ $sentence = array(
 $random = rand(0,3);
 
 echo "<p>$sentence[$random]</p>";
+?>
 
+<p><a href="story.php">Another?</a></p>
+
+<?php
 include 'footer.php';
 ?>
