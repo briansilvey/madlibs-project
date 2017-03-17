@@ -31,8 +31,12 @@ header {
     background-color: #efefef;
 }
 
-header h1{
+header h1 {
 	text-align: center;
+}
+
+header a {
+	color: #000;
 }
 
 .formwrap {

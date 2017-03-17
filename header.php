@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="title" content="Madlibs by Silvey">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="/test/css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <header>
-	<h1>This is my madlibs thing</h1>
+	<a href="story.php"><h1>This is my madlibs thing</h1></a>
 </header>
