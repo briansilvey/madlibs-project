@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	margin: 0;
+	padding: 1em;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	padding: 1em 1em;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3561cc;
+}
+
+a :hover {
+	color: #517d9e;
+	transition-timing-function: ease-in;
+}
+
+header {
+    background-color: #efefef;
+}
+
+header h1{
+	text-align: center;
+}
+
+.formwrap {
+    margin: 2em 0em;
+}
+
+#submitbtn {
+	margin-top: 1em;
+}
+
+footer {
+	margin-top: 2em;
+}
+
+footer p{
+	font-size: 1em;
+}
