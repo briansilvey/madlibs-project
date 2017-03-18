@@ -11,10 +11,13 @@ $sentence = array(
 	"My $noun can $verb on $name",
 	"$name is such a $noun and can $verb",
 	"once upon a time $name took a big $verb in the $noun",
-	"I can't belive $name went to the $noun and $verb"
+	"I can't belive $name went to the $noun and $verb",
+	"$name and his/her mom like to $verb at the $noun",
+	"$name thinks that they $verb the best at the $noun",
+	"$name $verb's in the $noun"
 );
 
-$random = rand(0,4);
+$random = rand(0,7);
 
 echo "<p>$sentence[$random]</p>";
 ?>
