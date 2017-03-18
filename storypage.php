@@ -18,7 +18,10 @@ $random = rand(0,3);
 echo "<p>$sentence[$random]</p>";
 ?>
 
-<p><a href="story.php">Another?</a></p>
+<div class="btnrow">
+	<a href="#" id="showanotherbtn">Show me Another!</a>
+	<a href="story.php" id="createnewbtn">Create New?</a>
+</div>
 
 <?php
 include 'footer.php';
