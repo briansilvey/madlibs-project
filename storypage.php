@@ -10,10 +10,11 @@ $sentence = array(
 	"The $noun had to $verb with $name",
 	"My $noun can $verb on $name",
 	"$name is such a $noun and can $verb",
-	"once upon a time $name took a big $verb in the $noun"
+	"once upon a time $name took a big $verb in the $noun",
+	"I can't belive $name went to the $noun and $verb"
 );
 
-$random = rand(0,3);
+$random = rand(0,4);
 
 echo "<p>$sentence[$random]</p>";
 ?>
@@ -26,3 +27,11 @@ echo "<p>$sentence[$random]</p>";
 <?php
 include 'footer.php';
 ?>
+
+<!--Reload page on enter-->
+<script>
+	document.addEventListener('keyup', function(e){
+  if(e.keyCode == 13)
+    window.location.reload();
+})
+</script>
